@@ -24,3 +24,9 @@ Route::get('/abstract-factory', function () {
 Route::get('builder', function () {
     return view('builder');
 });
+Route::get('factory', function () {
+    return view('factory');
+});
+Route::get('prototype', function () {
+    return view('prototype');
+});
