@@ -1,4 +1,5 @@
 <?php
+
 class Burger
 {
     protected $size;
@@ -60,7 +61,7 @@ class BurgerBuilder
     {
         return new Burger($this);
     }
-}
+} 
 
 $burger = (new BurgerBuilder(1))
                     ->addPepperoni()
