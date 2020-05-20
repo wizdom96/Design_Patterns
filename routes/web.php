@@ -30,3 +30,16 @@ Route::get('factory', function () {
 Route::get('prototype', function () {
     return view('prototype');
 });
+
+Route::get('simple', function () {
+    return view('simple');
+});
+
+Route::get('singelton', function () {
+    return view('singelton');
+});
+
+
+Route::get('static', function () {
+    return view('static');
+});
