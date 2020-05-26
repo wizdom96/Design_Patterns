@@ -43,3 +43,7 @@ Route::get('singelton', function () {
 Route::get('static', function () {
     return view('static');
 });
+
+Route::get('adapter', function () {
+    return view('adapter');
+});
