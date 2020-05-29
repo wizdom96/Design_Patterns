@@ -47,3 +47,7 @@ Route::get('static', function () {
 Route::get('adapter', function () {
     return view('adapter');
 });
+
+Route::get('composite', function () {
+    return view('composite');
+});
