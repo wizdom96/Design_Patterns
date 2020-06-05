@@ -51,3 +51,7 @@ Route::get('adapter', function () {
 Route::get('composite', function () {
     return view('composite');
 });
+
+Route::get('dependency', function () {
+    return view('dependency');
+});
