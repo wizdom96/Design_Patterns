@@ -55,3 +55,7 @@ Route::get('composite', function () {
 Route::get('dependency', function () {
     return view('dependency');
 });
+
+Route::get('decorator', function () {
+    return view('decorator');
+});
