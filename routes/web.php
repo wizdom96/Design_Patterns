@@ -59,3 +59,6 @@ Route::get('dependency', function () {
 Route::get('decorator', function () {
     return view('decorator');
 });
+Route::get('registry', function () {
+    return view('registry');
+});
